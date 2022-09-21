@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
+@RequestMapping("/auth")
 public class seatController {
     private final SeatServices seatServices;
 

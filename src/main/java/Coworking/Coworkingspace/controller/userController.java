@@ -20,8 +20,8 @@ public class userController {
          }
 
          @GetMapping("/user/{userid}")
-         private User getUser(@PathVariable("userid") Long userid){
-             return userServices.getUsersById(userid);
+         private User getUser(@PathVariable("userid") int userid){
+             return userServices.getUsersById((long) userid);
          }
          @DeleteMapping("/user/{userid}")
             private void deleteUser(@PathVariable("userid") Long userid){
