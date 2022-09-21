@@ -1,4 +1,4 @@
-package Coworking.Coworkingspace.Entity;
+package Coworking.Coworkingspace.entity;
 
 import lombok.*;
 

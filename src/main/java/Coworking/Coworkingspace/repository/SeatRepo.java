@@ -1,6 +1,6 @@
-package Coworking.Coworkingspace.Repository;
+package Coworking.Coworkingspace.repository;
 
-import Coworking.Coworkingspace.Entity.Seat;
+import Coworking.Coworkingspace.entity.Seat;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

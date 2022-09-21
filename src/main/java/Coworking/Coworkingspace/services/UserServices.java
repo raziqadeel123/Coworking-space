@@ -1,7 +1,7 @@
-package Coworking.Coworkingspace.Services;
+package Coworking.Coworkingspace.services;
 
-import Coworking.Coworkingspace.Entity.User;
-import Coworking.Coworkingspace.Repository.UserRepo;
+import Coworking.Coworkingspace.entity.User;
+import Coworking.Coworkingspace.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

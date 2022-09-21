@@ -1,7 +1,6 @@
-package Coworking.Coworkingspace.Repository;
+package Coworking.Coworkingspace.repository;
 
-import Coworking.Coworkingspace.Entity.Booking;
-import Coworking.Coworkingspace.Entity.User;
+import Coworking.Coworkingspace.entity.Booking;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

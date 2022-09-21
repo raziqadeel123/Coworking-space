@@ -1,12 +1,10 @@
-package Coworking.Coworkingspace.Services;
+package Coworking.Coworkingspace.services;
 
-import Coworking.Coworkingspace.Entity.Seat;
-import Coworking.Coworkingspace.Repository.SeatRepo;
-import com.fasterxml.jackson.databind.util.ArrayBuilders;
+import Coworking.Coworkingspace.entity.Seat;
+import Coworking.Coworkingspace.repository.SeatRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.List;
 

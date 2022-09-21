@@ -1,12 +1,11 @@
-package Coworking.Coworkingspace.Controller;
+package Coworking.Coworkingspace.controller;
 
-import Coworking.Coworkingspace.Entity.Seat;
-import Coworking.Coworkingspace.Services.SeatServices;
+import Coworking.Coworkingspace.entity.Seat;
+import Coworking.Coworkingspace.services.SeatServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.security.PublicKey;
 import java.util.List;
 
 @RestController

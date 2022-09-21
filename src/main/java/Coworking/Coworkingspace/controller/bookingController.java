@@ -1,9 +1,7 @@
-package Coworking.Coworkingspace.Controller;
+package Coworking.Coworkingspace.controller;
 
-import Coworking.Coworkingspace.Entity.Booking;
-import Coworking.Coworkingspace.Entity.User;
-import Coworking.Coworkingspace.Services.BookingServices;
-import Coworking.Coworkingspace.Services.UserServices;
+import Coworking.Coworkingspace.entity.Booking;
+import Coworking.Coworkingspace.services.BookingServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,9 +1,8 @@
-package Coworking.Coworkingspace.Controller;
+package Coworking.Coworkingspace.controller;
 
-import Coworking.Coworkingspace.Entity.User;
-import Coworking.Coworkingspace.Services.UserServices;
+import Coworking.Coworkingspace.entity.User;
+import Coworking.Coworkingspace.services.UserServices;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Primary;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
