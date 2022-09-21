@@ -11,7 +11,7 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:8080")
 @RestController
 @RequestMapping("/auth")
-public class UserController {
+public class userController {
          @Autowired
          UserServices userServices;
 
@@ -20,13 +20,13 @@ public class UserController {
              return userServices.getAllUser();
          }
 
-         @GetMapping("/user/{Userid}")
-         private User getUser(@PathVariable("Userid") Long Userid){
-             return userServices.getUsersById(Userid);
+         @GetMapping("/user/{userid}")
+         private User getUser(@PathVariable("userid") Long userid){
+             return userServices.getUsersById(userid);
          }
-         @DeleteMapping("/user/{Userid}")
-            private void deleteUser(@PathVariable("Userid") Long Userid){
-             userServices.delete(Userid);
+         @DeleteMapping("/user/{userid}")
+            private void deleteUser(@PathVariable("userid") Long userid){
+             userServices.delete(userid);
          }
          @PostMapping("/users")
          private Long saveUser(@RequestBody User User){

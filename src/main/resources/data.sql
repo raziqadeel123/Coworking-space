@@ -3,11 +3,11 @@ INSERT INTO Role (id , name)  VALUES
 ('01', 'amdin'),
 ('02', 'tester');
 
-INSERT INTO Persons (userId, firstName, lastName, email, password) VALUES
-('1','test', 'tester', 'tester@gmail.com', 'uewz892342'  ),
-('2','test2', 'tester2', 'tester2@gmail.com', 'uewz890342');
+INSERT INTO Persons(userid, firstname, lastname, email, password) VALUES
+(1L,'test', 'tester', 'tester@gmail.com', 'uewz892342'  ),
+(2L,'test2', 'tester2', 'tester2@gmail.com', 'uewz890342');
 
-INSERT INTO Seat(seatId, avaiable, SeatNumber, seatuser, fk_user) VALUES
+INSERT INTO Seat(seatid, avaiable, seatnumber, seatuser, fk_user) VALUES
 ('001', true , 'p1' ,'1' , '1'),
 ('002', true, 'p2' , '2' , '2');
 

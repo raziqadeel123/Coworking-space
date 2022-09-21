@@ -14,21 +14,21 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/booking")
-public class BookingController {
+@RequestMapping("/auth")
+public class bookingController {
     @Autowired
     BookingServices bookingServices;
 
     @Autowired
-    public BookingController (BookingServices bookingServices){
+    public bookingController(BookingServices bookingServices){
         this.bookingServices = bookingServices;
     }
     @RequestMapping(value = "/booking", method = RequestMethod.GET)
     private List<Booking> findallBooking(){
         return bookingServices.findallBooking();
     }
-    @RequestMapping(value = "/findBookingUser/{userId}", method = RequestMethod.GET )
-    private List<Booking> findBookingByUser(@PathVariable("userID") Long id){
+    @RequestMapping(value = "/findBookingUser/{userid}", method = RequestMethod.GET )
+    private List<Booking> findBookingByUser(@PathVariable("userid") Long id){
             return bookingServices.findBookingByUser(id);
     }
 }

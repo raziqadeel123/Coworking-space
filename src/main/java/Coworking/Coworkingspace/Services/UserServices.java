@@ -29,7 +29,7 @@ public class UserServices {
         userRepo.deleteById(id);
     }
 
-    public void update(User user , int Userid){
+    public void update(User user , Long userid){
         userRepo.save(user);
     }
 }

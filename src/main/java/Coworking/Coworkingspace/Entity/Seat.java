@@ -16,11 +16,11 @@ public class Seat  implements Serializable {
 
       @Id
       @GeneratedValue(strategy = GenerationType.IDENTITY)
-      private long seatId;
+      private long seatid;
 
     @OneToOne
-    @JoinColumn(name = "userId")
-    private User userId;
+    @JoinColumn(name = "userid")
+    private User userid;
 
    //@Column(name = "SeatNumber")
    //private String SeatNumber;

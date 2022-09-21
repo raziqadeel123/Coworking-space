@@ -10,11 +10,11 @@ import java.security.PublicKey;
 import java.util.List;
 
 @RestController
-public class SeatController {
+public class seatController {
     private final SeatServices seatServices;
 
     @Autowired
-    public SeatController(SeatServices seatServices){
+    public seatController(SeatServices seatServices){
           this.seatServices = seatServices;
     }
     @RequestMapping("/seats")
